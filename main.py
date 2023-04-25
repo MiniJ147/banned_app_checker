@@ -19,7 +19,7 @@ print("5 is the lowest amount of pause time")
 pause_time = int(input("Enter pause time\n>>> "))
 
 #if they don't set a pause step then we force one so their computer doesnt die
-if pause_time==0:
+if pause_time < 5:
     pause_time = 5
 
 #reading the file and putting it into a stirng
